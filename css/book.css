@@ -1,0 +1,13 @@
+.bianJi{
+	width:60px;height:30px; background:rgba(52, 52, 52, 0.8);color:white;line-height:30px;
+}
+.bianJi:hover{
+	cursor:pointer;
+	background:rgba(52, 52, 52, 1)
+}
+.img_book{
+	width:220px;height:180px;float:left;
+}
+.content{
+	width:700px;height:300px;float:
+}

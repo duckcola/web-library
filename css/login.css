@@ -1,0 +1,42 @@
+*{
+	margin:0px;
+	padding:0px;
+} 
+.top{
+	height:100px;
+}
+.content{
+    height: 600px;
+    background: url(../image/hr_login.png) no-repeat center;
+}
+.content .login{
+	width: 380px;
+	height: 400px;
+	position: absolute;
+	top: 130px;
+	right: 100px;
+	background:white;
+}
+.content .login .login-title{
+	width: 300px;
+    height: 320px;
+    background: #fff;
+    padding: 40px 40px 40px 40px;
+	
+}
+.content .login .login-title .options{
+	width:300px;
+	height:42px;
+}
+.content .login .login-title .options .first{
+	color:blue;
+}
+.content .login .login-title .options .second{
+	color:black;
+}
+hr {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}

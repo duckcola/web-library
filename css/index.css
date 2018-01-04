@@ -1,0 +1,253 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.main_content{
+	width:100%;
+	height:500px;
+	background-image:url("../image/index.jpg");
+	opacity:1;
+} 
+.main_content .top{
+	width:100%;
+	height:50px;
+	color:white;
+	background: rgba(52, 52, 52, 0.6);
+	position:fixed;
+}
+.main_content .top .left_part{
+	width:640px;
+	height:50px;
+	float:left;
+	
+}
+.main_content .top .left_part .tag{
+	width:596px;
+	height:50px;
+	float:right;
+	line-height:50px;
+	z-index:99997;
+	
+}
+.bianJi{
+	width:100px;height:30px; background:white;color:black;line-height:30px;
+}
+.bianJi_2{
+	width:50px;height:30px; background:rgba(52, 52, 52, 0.8);color:white;line-height:30px;
+	text-align:center;
+	border-radius:2px;
+}
+.bianJi_2:hover{
+	cursor:pointer;
+	background:black;
+}
+.bianJi:hover{
+	cursor:pointer;
+	color:white;
+	background:rgba(52, 52, 52, 0.8);
+}
+
+.main_content .top .left_part .tag a:hover{
+	cursor:pointer;
+	padding-bottom:5px; border-bottom:1px solid white;
+}
+.main_content .top .left_part .tag .icon{
+	float:left; width:90px;height:50px;text-align:center;font-size:28px;line-height:50px;
+}
+.main_content .top .left_part .tag .icon_1{
+	font-size:14px;
+	float:left; width:100px;height:50px;line-height:50px;
+	text-align:center
+}
+
+.main_content .top .right_part{
+	width:175px;
+	height:50px;
+	float:right;
+	font-size:20px;
+	line-height:50px;
+}
+.main_content .top .right_part a:hover{
+	cursor:pointer;
+	padding-bottom:5px; border-bottom:1px solid white;
+}
+
+.main_content .search{
+	width:100%;
+	height:450px;
+	color:white;
+}
+.main_content .search .search_sm{
+	width:560px;
+	height:450px;
+	float:left;
+	
+}
+.main_content .search .search_sm .search_title{
+	width:560px;
+	height:160px;
+	line-height:210px;
+	font-size:35px;
+	text-align:center;
+	z-index:99997;
+	
+}
+.main_content .search .search_sm .search_content{
+	width:560px;
+	height:75px;
+	
+}
+.main_content .search .search_sm .search_content .iocn a{
+	width:38px;
+	height:36px;
+	background:rgba(52, 52, 52, 0.5);
+	float:right;
+	border:1px  solid white;
+	font-size:30px;
+	text-align:center;
+}
+.main_content .search .search_sm .search_content .iocn a:hover{
+	cursor:pointer;
+	background:rgba(52, 52, 52, 0.8);
+}
+.main_content .search .search_sm .hot_search{
+	width:560px;
+	height:40px;
+	text-align:center;
+	font-size:13px;
+	line-height:40px;
+}
+.main_content .search .search_sm .hot_search a:hover{
+	cursor:pointer;
+	padding-bottom:1px; border-bottom:1px solid white;
+}
+ .nothing{
+	width:395px;
+	height:450px;
+	float:left;
+}
+.bookPaihang{
+	width:100%;
+	height:520px;
+	text-align:center;
+
+}
+.bookPaihang .left_book{
+	width:30%;
+	height:460px;
+	float:left;
+
+}
+.bookPaihang .left_book .my_library{
+	width:300px;
+	height:460px;
+	float:left;
+	background:rgba(52, 52, 52, 0.4);
+	border-radius:25px;
+	color:white;
+}
+.bookPaihang .left_book .my_library .my_library_top{
+	width:300px;
+	height:60px;
+	line-height:60px;
+	font-size:25px;
+}
+.bookPaihang .left_book .my_library .my_image{
+	width: 140px;
+    height: 140px;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    overflow: hidden;
+    position: relative;
+    left: 25%;
+    top: 3%;
+    border: solid 2px #eeeeee;
+}
+.bookPaihang .right_book{
+	width:70%;
+	height:460px;
+	float:right;
+	border-radius:25px;
+	background:rgba(52, 52, 52, 0.8);
+}
+.bookPaihang .right_book .book_hot_all{
+	width:200px;
+	height:390px;
+
+	float:right;
+	
+}
+.bookPaihang .right_book .book_hot_first{
+	width:780px;
+	height:390px;
+	background:white;
+	border-radius:15px;
+	
+	
+	float:right;
+}
+.hotforu{
+	width:100%;
+	height:330px;
+	
+}
+.hotforu .order {
+   height: 60px;
+   line-height: 60px;
+   text-align:center;
+}
+ .order .line {
+   display: inline-block;
+   width: 600px;
+   border-top: 1px solid #ccc ;
+}
+.order .txt {
+   color: #999999;
+   vertical-align: -8%;
+   font-size:20px;
+}
+.hotforu .book_list{
+	width:100%;
+	height:180px;
+	text-align:center;
+}
+.hotforu .book_list .book_all{
+	width:30%;
+	height:180px;
+	float:left;
+	background: rgba(52, 52, 52, 0.6);
+	color:white;
+	border-radius:10px;
+}
+.hotforu .book_list .book_all .book{
+	width:15%;
+	height:180px;
+	float:left;
+}
+.hotforu .book_list .book_all .book_introduce{
+	width:15%;
+	height:180px;
+	
+	float:left;
+}
+.hotforu .book_list .book_all .book_introduce h4:hover{
+	padding-bottom:1px; border-bottom:1px solid white;
+}
+.hotforu .book_list .book_all .book_introduce p{
+	font-size:12px;
+}
+.hotforu .book_list .no{
+	width:4%;
+	height:180px;
+	float:left;
+}
+.hotforu .book_list .book_all:hover{
+	cursor:pointer
+}
+.layui-layer-title {
+		background:rgba(52, 52, 52, 0.3);
+}
+ .news_li:hover{
+	 cursor:pointer;
+ }
